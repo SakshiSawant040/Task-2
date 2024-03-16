@@ -1,0 +1,49 @@
+.Home{
+    width: 100vw;
+    overflow: hidden;
+}
+.Home-bg{
+    width: 100vw;
+    height: 700px;
+    background-image: url('../../images/homeBgImg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.Home-Discover{
+    width: 600px;
+    height: 400px;
+    background-color: #FFF3E3;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 20px 50px;
+    border-radius: 2%;
+    position: relative;
+    left: 763px;
+    top: 150px;
+}
+.Home-Discover h1{
+    margin: 0;
+    width: 400px;
+    font-weight: 700;
+    color: #B88E2F;
+    font-size: 52px;
+}
+.Home-Discover button{
+    margin-top: 30px;
+width: 222px;
+height:  74px;
+top: 585px;
+left: 778px;
+padding: 25px, 72px, 25px, 72px;
+gap: 10px;
+background-color: #B88E2F;
+border: none;
+font-weight: 700;
+color: #FFF3E3;
+font-size: 14px;
+cursor: pointer;
+}
+.Home-Discover p{
+    width: 400px;
+}

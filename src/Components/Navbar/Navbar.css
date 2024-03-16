@@ -1,0 +1,34 @@
+.Navbar{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000000;
+    padding-right: 9px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    font-size: 34px;
+    font-weight: 700;
+}
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+    list-style: none;
+}
+.nav-links ul li{
+    margin-right: 56px;
+    font-size: 18px;
+    font-weight: 510;
+    
+}
+.nav-icons span{
+    margin-right: 48px;
+    font-size: 50px;
+}

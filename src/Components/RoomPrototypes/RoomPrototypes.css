@@ -1,0 +1,70 @@
+.RoomPrototypes{
+    /* position: relative; */
+    width: 100vw;
+    padding-left: 5%;
+    height: 670px;
+    margin-bottom: 100px;
+    background: #FCF8F3;
+    display: grid;
+    grid-template-columns:  450px 1000px;
+    grid-gap: 20px;
+
+}
+.RoomPrototypes-heading{
+    padding-top: 50%;
+    text-align: left;
+    /* background-color: aqua; */
+    
+}
+.head{
+    font-size: 46px;
+    font-weight: 900;
+    padding-bottom: 2%;
+ 
+}
+
+.RoomPrototypes-heading p{
+    width: 350px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #616161;
+}
+#Explore-btn{
+    margin-top: 25px;
+    width: 175px;
+    height: 50px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background: #B88E2F;
+    color: #FFFFFF;
+    border: none;
+
+}
+.slider-container{
+    margin-top: 50px;
+}
+
+.slide img{
+    width: 404px;
+    height: 550px;
+
+}
+.slide{
+    transform: scale(1.1);
+    transition: transform 300ms;
+
+}
+.activeSlide{
+    transform: scale(1.1);
+
+}
+.slider{
+    /* padding: 50px 20px;
+    background: #616161; */
+    /* display: grid;
+    grid-template-columns: 404px 404px 202px;
+    grid-gap: 20px; */
+}
+

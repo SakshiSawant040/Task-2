@@ -1,0 +1,134 @@
+.Shop{
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+    padding: 0%;
+}
+.shop-bg{
+    width: 100vw;
+    height: 316px;
+    background-image: linear-gradient(rgba(190, 190, 192, 0.516), rgba(177, 176, 176, 0.445)),url('../../images/shop-bg.jpeg'); 
+    background-repeat: no-repeat;
+    background-size: 100vw 316px;
+}
+.shop-heading{
+    padding-top: 85px;
+}
+.shop-heading h1{
+    font-size: 48px;
+    font-weight: 500;
+}
+.shop-heading h1, .shop-heading h5{
+    text-align: center;
+
+}
+.sub-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: -5 0px;
+}
+.shop-heading button{
+    border: none;
+    background: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+.shop-heading span{
+    font-weight: 100;
+    color: rgb(58, 56, 56);
+}
+.filter-frame{
+    width: 100vW;
+    background:  #F9F1E7;
+    height: 100px;
+    display: grid;
+    grid-template-columns:  50% 50%;
+}
+.left-frame{
+    display: flex;
+    align-items: center;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+.fiter-icon{
+    display: flex;
+    align-items: center;
+    
+}
+.fiter-icon span{
+    margin-left: 10px;
+}
+.left-frame p{
+    margin-right: 25px;
+}
+
+.right-frame{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.show-count,.short-by{
+    display: flex;
+    align-items: center;
+
+}
+.show-count h1,.short-by h1{
+    font-weight: 300;
+}
+.count{
+    color:#9F9F9F;
+    font-size: 11px;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    margin-left: 15px;
+    background-color:#ffffff;
+}
+.default{
+    color:#9F9F9F;
+    font-size: 11px;
+    width: 188px;
+    height: 55px;
+    text-align: center;
+    margin-left: 15px;
+    background-color:#ffffff;
+    font-weight: 200;
+}
+.results p{
+    font-size: large;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+.next-button{
+    margin-top: 50px;
+}
+.next-button button{
+    width: 60px;
+    height: 60px;
+    font-weight: 300px;
+    font-size: 20px;
+    margin-right: 36px;
+    border-radius: 10px;
+    border: none;
+    background: #F9F1E7;
+
+}
+.next-button button:active{
+    background: #B88E2F;
+
+}
+#next {
+    width: 83px;
+    height: 60px;
+}

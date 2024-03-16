@@ -1,0 +1,41 @@
+.BrowseRange{
+    /* margin-top: 40px; */
+    width: 1183px;
+    height: 685px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 7%;
+
+}
+.Browse-heading{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.Browse-heading h1{
+    font-size: 36px;
+    font-weight: 800;
+}
+.Browse-heading p {
+    color: #666666;
+    font-size: 20px;
+    font-weight: 400;
+}
+.Browse-imgs{
+    display: grid;
+    grid-template-columns: 381px 381px 381px;
+    grid-gap: 20px;
+}
+.Browse-imgs img{
+    /* background-color: aqua; */
+    width: 381px;
+    height: 480px;
+    border-radius: 4%;
+}
+
+ .Browse-imgs p{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: #333333;
+}
